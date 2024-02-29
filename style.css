@@ -1,0 +1,33 @@
+h2{
+    font-size: 50px;
+}
+
+body{
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+.controls{
+    margin-bottom: 50px;
+}
+input{
+    width: 100px;
+}
+
+:root{
+    --basecolor : #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--basecolor);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--basecolor);
+}
